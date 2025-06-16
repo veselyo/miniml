@@ -1,0 +1,39 @@
+Basic literals
+    6 ;;
+
+    true ;;
+
+    ~-6 ;;
+
+Basic Operations
+    3 + 3 ;;
+
+    1 < 2 ;;
+
+Conditional Expressions
+    if 1 < 2 then 6 else 0 ;;
+
+Simple Bindings and Function Application
+    (fun y -> y * 2) 3 ;;
+
+Core Scoping Differences
+    let x = 3 in let f = fun y -> x + y in let x = 0 in f 3 ;;
+        s=> 6 -> x is substituted when f is defined
+        d=> 3 -> f looks up x at call time, which is the most recent binding
+        l=> 6 -> f forms a closure, capturing x=1 from its definition environment
+
+Recursive Functions
+    let rec fact = fun n -> if n = 0 then 1 else n * fact (n - 1) in fact 3 ;;
+
+Error Handling
+    let x = 6 in ;;
+
+    6 + true ;;
+
+    let x = y + 6 in x ;;
+        unbound variable
+
+    raise ;;
+
+
+

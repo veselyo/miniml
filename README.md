@@ -2,20 +2,16 @@
 
 ## Description
 
-This project is an interpreter for MiniML, a compact, OCaml-like functional
-programming language. It delves into the core concepts of programming language
-design and implementation by building multiple evaluators based on different
-operational semantics.
-
-The primary goal is to understand and demonstrate how variations in evaluation
-strategies—specifically substitution, dynamic scoping, and lexical scoping—can
-profoundly impact program behavior and language capabilities.
+This project is an interpreter for MiniML. MiniML is a compact, OCaml-like functional
+programming language. The primary goal is to demonstrate how programming languages
+execute code by implementing three different evaluation strategies: the substitution
+model, dynamic scoping with environments, and lexical scoping with environments.
 
 ## Features
 
-*   **Multiple Evaluation Semantics Implemented:**
-    *   **Substitution Model (`eval_s`):** A foundational model where names
-        are directly replaced by their values.
+*   **Evaluation Semantics Implementation:**
+    *   **Substitution Model (`eval_s`):** Names are directly replaced by
+        their values.
     *   **Dynamically-Scoped Environment Model (`eval_d`):** Variables are
         resolved based on the runtime call stack.
     *   **Lexically-Scoped Environment Model (`eval_l`):** Variables are
@@ -24,9 +20,8 @@ profoundly impact program behavior and language capabilities.
 *   **Interactive REPL (Read-Eval-Print Loop):**
     Allows users to type MiniML expressions and see immediate results.
 *   **Simultaneous Semantics Comparison:** The REPL uniquely displays the
-    output of an expression as evaluated by *all three* semantics
-    (substitution, dynamic, and lexical) side-by-side, offering a clear
-    and immediate comparison.
+    output of an expression as evaluated by all three semantics side-by-side,
+    offering a clear and immediate comparison.
 *   **Core Functional Language Constructs:** Supports integers, booleans,
     arithmetic and comparison operators, conditionals, first-class functions,
     `let` bindings, and recursive functions (`let rec`).
@@ -39,7 +34,7 @@ profoundly impact program behavior and language capabilities.
 ## Demo
 Here, you can see a demo of the MiniML interpreter in action:
 
-*Insert demo here*
+https://github.com/user-attachments/assets/2a6fc166-e097-4eff-a21d-f02bf787146c
 
 ## Contributors
 - Ondrej Vesely – Author

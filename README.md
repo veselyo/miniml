@@ -34,7 +34,7 @@ model, dynamic scoping with environments, and lexical scoping with environments.
 ## Demo
 Here, you can see a demo of the MiniML interpreter in action:
 
-https://github.com/user-attachments/assets/2a6fc166-e097-4eff-a21d-f02bf787146c
+https://github.com/user-attachments/assets/41d97de4-5506-4c85-b96f-3ca52ccf6eb2
 
 ## Contributors
 - Ondrej Vesely – Author
